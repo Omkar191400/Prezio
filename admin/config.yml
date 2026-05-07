@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: Omkar191400/Prezio
+  name: git-gateway
   branch: main
-  base_url: https://prezio.ai
-  auth_endpoint: .netlify/functions/auth
 
 media_folder: assets/blog-images
 public_folder: /assets/blog-images
@@ -19,7 +16,7 @@ collections:
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string, default: Prezio Team }
       - { label: Category, name: category, widget: select, options: ["Industry Insights", "Product Updates", "Telecom Trends", "Case Studies", "Company News"] }
-      - { label: Summary, name: summary, widget: text, hint: "Short description shown on the blog listing page" }
+      - { label: Summary, name: summary, widget: text }
       - { label: Cover Image, name: cover_image, widget: image, required: false }
       - { label: Body, name: body, widget: markdown }
       - { label: Featured, name: featured, widget: boolean, default: false }
