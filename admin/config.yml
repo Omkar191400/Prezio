@@ -2,8 +2,6 @@ backend:
   name: github
   repo: Omkar191400/Prezio
   branch: main
-  base_url: https://prezio.ai
-  auth_endpoint: .netlify/functions/auth
 
 media_folder: assets/blog-images
 public_folder: /assets/blog-images
